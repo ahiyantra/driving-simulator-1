@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public GameObject player;
-    private Vector3 offset = new Vector3(0, 7, -7);
+    public GameObject player; //private
+    [SerializeField] Vector3 offset = new Vector3(0, 7, -7); //public//private
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //void Start()
+    //{
+
+    //}
 
     // Update is called once per frame
+    //void Update()
+    //{
+
+    //}
+
     void LateUpdate()
     {
         // offset the camera position behind the player by adding to the player position
