@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/prototype-1-alt.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
